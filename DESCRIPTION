@@ -1,0 +1,33 @@
+Package: camoccupancyPrep
+Title: Modular Preparation of Camera Trap Data for spOccupancy
+Version: 0.1.0
+Authors@R: 
+    person(given = "OpenAI",
+           family = "Assistant",
+           role = c("aut", "cre"),
+           email = "example@example.com")
+Description: A package-style project for preparing camera trap detection data
+    into modular intermediate tables and final inputs for Bayesian occupancy
+    models fitted with the spOccupancy package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    tidyr,
+    lubridate,
+    readr,
+    tibble,
+    purrr,
+    stringr,
+    rlang,
+    stats,
+    readxl
+Suggests:
+    testthat (>= 3.0.0),
+    here,
+    openxlsx,
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
