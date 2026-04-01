@@ -1,4 +1,4 @@
 library(testthat)
-library(camoccupancyPrep)
+library(mia-occupancy)
 
-test_check("camoccupancyPrep")
+test_check("mia-occupancy")
