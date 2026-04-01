@@ -38,7 +38,7 @@ camoccupancyPrep/
 ├─ data-raw/
 └─ outputs/
 ```
-# Note: this project assumes all input data are located in the data-raw folder
+Note: this project assumes all input data are located in the data-raw folder
 
 ## Workflow layers
 
