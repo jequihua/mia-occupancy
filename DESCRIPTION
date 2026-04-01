@@ -1,11 +1,11 @@
-Package: camoccupancyPrep
+Package: mia-occupancy
 Title: Modular Preparation of Camera Trap Data for spOccupancy
 Version: 0.1.0
 Authors@R: 
-    person(given = "OpenAI",
+    person(given = "Julián Equihua, Roberto Rentería, Gonzalo Sanson",
            family = "Assistant",
            role = c("aut", "cre"),
-           email = "example@example.com")
+           email = "julian.equihua@gmail.com")
 Description: A package-style project for preparing camera trap detection data
     into modular intermediate tables and final inputs for Bayesian occupancy
     models fitted with the spOccupancy package.
